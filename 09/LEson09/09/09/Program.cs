@@ -16,6 +16,8 @@ namespace _09
 			UpgrateValue(ref a);
 			Console.WriteLine(a);
 
+			//StopWath sw = new StopWath();
+
 			const int length = 5;
 			const int maxValue = int.MaxValue;
 
@@ -107,11 +109,11 @@ namespace _09
 			a++;
 			Console.WriteLine(a);
 		}
-		private static[] SystemSort(int[] arr)
-		{
-			int[] a=int[] arr.Clone());
-			Array.Sort(a);
-			return a;
-		}
+		//private static[] SystemSort(int[] arr)
+		//{
+		//	int[] a=int[] arr.Clone());
+		//	Array.Sort(a);
+		//	return a;
+		//}
 	}
 }
